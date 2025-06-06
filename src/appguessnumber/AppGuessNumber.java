@@ -22,7 +22,7 @@ public class AppGuessNumber {
         int cont  = 0 ;
         Random ran = new Random();
         Scanner scan = new Scanner(System.in);
-        numRandom = ran.nextInt(3)+1;
+        numRandom = ran.nextInt(0-100);
 //        System.out.print("Number is : "+ numRandom);
         while(cont<=3){
             System.out.print("Enter yoour guess :");
